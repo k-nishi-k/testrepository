@@ -1,8 +1,9 @@
 prompt
-'''
+
+```
 Google スプレッドシートをAPIを使ってGoogleドライブ上にコピーし、同じ名前のスプレッドシートが存在する場合に上書きするには、以下の手順を実行します。
 
-'''
+```
 
 
 chatgpt の回答
@@ -15,8 +16,8 @@ Google Cloud Consoleにアクセスして、Google Sheets APIとGoogle Drive API
 b. ライブラリをインストール
 Pythonを使用する場合、以下のライブラリをインストールします:
 
-```bash
 コードをコピーする
+```bash
 pip install google-api-python-client google-auth google-auth-httplib2 google-auth-oauthlib
 ```
 
